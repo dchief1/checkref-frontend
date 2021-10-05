@@ -1,0 +1,101 @@
+.avatar_item {
+    margin-top: -2rem;
+    width: 120px !important;
+    height: 120px !important;
+    animation-name: avatar;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.avatar_item_d {
+    margin-top: 3rem !important;
+}
+
+.header {
+    background-color: #ffece0;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 16px 80px;
+}
+
+.signup_btn {
+    margin-top: 2rem !important;
+    display: inline-block !important;
+}
+
+.about {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: slide-up;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+.how_it_works {
+    background-color: #f5f6ff;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.how_it_works div {
+    width: 500px;
+}
+
+.how_it_works img {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    margin-top: 4rem;
+}
+
+.how_it_works h6 {
+    margin-bottom: 1rem;
+}
+
+.hiring {
+    background-color: #ffffff;
+}
+
+@keyframes slide-up {
+    from {
+        transform: translateY(200%);
+    }
+
+    to {
+        transform: translateY(0%);
+    }
+}
+
+.about h4 {
+    padding-bottom: 2rem;
+}
+
+.about p {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.how_it_works {
+}
+
+@keyframes avatar {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(10%);
+    }
+}
